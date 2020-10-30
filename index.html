@@ -1,17 +1,83 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Assignment Solution for Module 4</title>
-    <script src="SpeakHello.js"></script>
-    <script src="SpeakGoodBye.js"></script>
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Writer's Hub</title>
+    <link rel="stylesheet" href="CSS/website.css">
 </head>
-
 <body>
-    <h1>Solution of Assignment 4</h1>
-    <p>Check out the console in the web developer tools to see if it works!</p>
-</body>
+    <div class="header">
+  <h1>Writer's Hub</h1>
+  <p>A <b>responsive</b> website created by Nishchay Tyagi</p>
+</div>
 
+<div class="navbar">
+  <a href="website.html">Home</a>
+  <a href="About.html" >About</a>
+  <a href="News.html">News</a>
+  <a href="Contact.html" class="right">Contact</a>
+</div>
+
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Select a country</option>
+      <option value="canada">India</option>
+      <option value="usa">USA</option>
+      <option value="usa">Australia</option>
+        <option value="usa">Canada</option>
+        <option value="usa">England</option>
+        <option value="usa">Pakistan</option>
+        <option value="usa">Bangladesh</option>
+        <option value="usa">Not China</option>
+        <option value="usa">Iran</option>
+        <option value="usa">Iraq</option>
+        <option value="usa">Qatar</option>
+        <option value="usa">Russia</option>
+        <option value="usa">Nepal</option>
+        <option value="usa">Afghanistan</option>
+        <option value="usa">Israel</option>
+        <option value="usa">Jaapaaan</option>
+        <option value="usa">New Zealand</option>
+        <option value="usa">Syria</option>
+        <option value="usa">Purani Dilli</option>
+        <option value="usa">Mexico</option>
+        <option value="usa">Brazil</option>
+        <option value="usa">Lal Kua</option>
+        <option value="usa">PMC</option>
+        <option value="usa">ABESIT ke peeche wala mohalla</option>
+        
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+    
+    
+    
+<div class="footer">
+ &copy;2020 Writershub.com&nbsp;&nbsp;&nbsp;&nbsp;All rights reserved&nbsp;&nbsp;<span class="seperator">|</span> Designed by Nishchay Tyagi<br><br>
+<!--  social media links-->
+  <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
+<a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</body>
 </html>
